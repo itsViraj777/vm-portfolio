@@ -89,7 +89,7 @@ const Portfolio = () => {
                 </div>
                 <div className="home-image">
                   <img src={profileImage} alt="Viraj Mhaske" className="hero-image" />
-                  <p className="hero-name text-[32px]">Viraj Mhaske</p>
+                  <p className="hero-name text-[30px]">Viraj Mhaske</p>
                 </div>
               </div>
             </div>
