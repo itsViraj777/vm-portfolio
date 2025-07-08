@@ -362,6 +362,32 @@ body {
   transform: translateY(-1px);
 }
 
+.education-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.education-text {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.education-highlight {
+  color: var(--accent-purple);
+  font-weight: 600;
+}
+
+.education-year {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  margin-left: auto;
+  font-weight: 500;
+}
+
 /* Projects Section */
 .projects-section {
   background-color: var(--bg-primary);

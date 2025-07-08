@@ -111,10 +111,25 @@ const Portfolio = () => {
                     Artificial Intelligence and Data Science graduate with hands-on experience in machine learning, deep learning, and computer vision. Skilled in designing and training neural network models for real-world applications such as facial emotion recognition and anomaly detection.
                   </p>
                   <h3 className="about-subtitle">Education</h3>
-                  <ul className="about-list">
-                    <li>B.Tech AI & DS (Hons. Cyber Security), Vidyavardhini's COET – CGPA 7.4</li>
-                    <li>HSC in Computer Science – 64.2%</li>
-                    <li>SSC – 84.8%</li>
+                  <ul className="about-list education-list">
+                    <li>
+                      <span className="education-text">
+                        Bachelor's Degree in <span className="education-highlight">Artificial Intelligence and Data Science</span> with Honors in <span className="education-highlight">Cyber Security</span> from Vidyavardhini's College of Engineering and Technology - CGPA - 7.4 
+                      </span>
+                      <span className="education-year">(2020 – 2024)</span>
+                    </li>
+                    <li>
+                      <span className="education-text">
+                        <span className="education-highlight">H.S.C.</span> in <span className="education-highlight">Computer Science</span>, Vidyavardhini's E.S. Andrades College of Science - 64.20% 
+                      </span>
+                      <span className="education-year">(2018 – 2020)</span>
+                    </li>
+                    <li>
+                      <span className="education-text">
+                        <span className="education-highlight">S.S.C.</span> from Ganpat Gagnnath Vartak Vidyalaya - 84.80% 
+                      </span>
+                      <span className="education-year">(2018)</span>
+                    </li>
                   </ul>
                 </div>
                 <div>
