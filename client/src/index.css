@@ -402,7 +402,11 @@ body {
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: var(--text-primary);
+  background: linear-gradient(to right, var(--accent-purple), var(--accent-pink), var(--accent-indigo));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .project-tags {
@@ -709,6 +713,11 @@ body {
 
   .project-title {
     font-size: 1.1rem;
+    background: linear-gradient(to right, var(--accent-purple), var(--accent-pink), var(--accent-indigo));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
 
   .contact-grid {
@@ -776,6 +785,11 @@ body {
 
   .project-title {
     font-size: 1rem;
+    background: linear-gradient(to right, var(--accent-purple), var(--accent-pink), var(--accent-indigo));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
 
   .project-description {
