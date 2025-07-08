@@ -393,7 +393,14 @@ body {
   left: 0;
   right: 0;
   padding: 1.5rem;
-  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.7), transparent);
+  background: linear-gradient(to top, 
+    rgba(0,0,0,1) 0%, 
+    rgba(0,0,0,0.9) 30%, 
+    rgba(0,0,0,0.7) 60%, 
+    rgba(0,0,0,0.4) 80%, 
+    rgba(0,0,0,0.1) 90%, 
+    transparent 100%
+  );
   transform: translateY(100%);
   transition: all 0.3s ease;
 }
