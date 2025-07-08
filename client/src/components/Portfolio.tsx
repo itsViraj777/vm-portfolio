@@ -286,8 +286,13 @@ const ProjectCard = ({ title, description, image, githubLink, tags }) => (
 // Experience Card Component
 const ExperienceCard = ({ role, company, period, points }) => (
   <div className="experience-card">
-    <h3 className="experience-role">{role}</h3>
-    <p className="experience-company">{company} | {period}</p>
+    <div className="experience-header">
+      <h3 className="experience-role">{role}</h3>
+      <div className="experience-meta">
+        <span className="experience-company">{company}</span>
+        <span className="experience-period">{period}</span>
+      </div>
+    </div>
     <ul className="experience-points">
       {points.map((point, idx) => (
         <li key={idx}>{point}</li>
