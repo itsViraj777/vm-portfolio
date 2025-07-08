@@ -162,7 +162,7 @@ const Portfolio = () => {
                   title="Stock Market Anomaly Detection"
                   description="Python-based system using Z-Score and Isolation Forest techniques for detecting unusual patterns."
                   image={stockImage}
-                  githubLink="https://github.com/itsViraj777/StockAnomalyDetection"
+                  githubLink="https://github.com/itsViraj777/Stock-Market-Anomaly-Detection-using-Python"
                   tags={['Python', 'Z-Score', 'Isolation Forest']}
                 />
               </div>
