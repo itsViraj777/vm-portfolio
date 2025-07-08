@@ -210,30 +210,46 @@ const Portfolio = () => {
           <section className="section contact-section">
             <div className="container">
               <h2 className="section-title centered">Get In Touch</h2>
-              <div className="contact-content">
-                <div className="contact-form">
-                  <form className="form">
-                    <input type="text" placeholder="Your Name" className="form-input" />
-                    <input type="email" placeholder="Your Email" className="form-input" />
-                    <textarea placeholder="Your Message" rows={5} className="form-input form-textarea"></textarea>
-                    <button type="submit" className="btn btn-primary">Send Message</button>
-                  </form>
-                </div>
-                <div className="contact-info">
-                  <h3 className="contact-info-title">Contact Information</h3>
-                  <ul className="contact-info-list">
-                    <li>Email: asliviraj973@gmail.com</li>
-                    <li>Phone: +91 7767951841</li>
-                    <li>Location: Vasai, Maharashtra, India</li>
-                  </ul>
-                  <div className="contact-social">
-                    <a href="https://linkedin.com/in/viraj-mhaske-1b8a99306" target="_blank" rel="noopener noreferrer" className="social-link">
-                      <LinkedInIcon />
-                    </a>
-                    <a href="https://github.com/itsViraj777" target="_blank" rel="noopener noreferrer" className="social-link">
-                      <GitHubIcon />
-                    </a>
+              <div className="contact-grid">
+                <div className="contact-card">
+                  <div className="contact-icon">
+                    <EmailIcon />
                   </div>
+                  <h3 className="contact-card-title">Email</h3>
+                  <p className="contact-card-text">asliviraj973@gmail.com</p>
+                  <a href="mailto:asliviraj973@gmail.com" className="contact-card-link">Send Email</a>
+                </div>
+                
+                <div className="contact-card">
+                  <div className="contact-icon">
+                    <PhoneIcon />
+                  </div>
+                  <h3 className="contact-card-title">Phone</h3>
+                  <p className="contact-card-text">+91 7767951841</p>
+                  <a href="tel:+917767951841" className="contact-card-link">Call Now</a>
+                </div>
+                
+                <div className="contact-card">
+                  <div className="contact-icon">
+                    <LocationIcon />
+                  </div>
+                  <h3 className="contact-card-title">Location</h3>
+                  <p className="contact-card-text">Vasai, Maharashtra, India</p>
+                  <span className="contact-card-link">Available for Remote Work</span>
+                </div>
+              </div>
+              
+              <div className="contact-social-section">
+                <h3 className="contact-social-title">Connect With Me</h3>
+                <div className="contact-social">
+                  <a href="https://linkedin.com/in/viraj-mhaske-1b8a99306" target="_blank" rel="noopener noreferrer" className="social-link">
+                    <LinkedInIcon />
+                    <span>LinkedIn</span>
+                  </a>
+                  <a href="https://github.com/itsViraj777" target="_blank" rel="noopener noreferrer" className="social-link">
+                    <GitHubIcon />
+                    <span>GitHub</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -291,6 +307,27 @@ const LinkedInIcon = () => (
 const GitHubIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
     <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+  </svg>
+);
+
+// Email Icon SVG
+const EmailIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+  </svg>
+);
+
+// Phone Icon SVG
+const PhoneIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+  </svg>
+);
+
+// Location Icon SVG
+const LocationIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
   </svg>
 );
 
