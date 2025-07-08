@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import profileImage from '@assets/pdp_1751986504606.jpg';
+import deepferImage from '@assets/DEEPFER_1751988525142.png';
+import recipeImage from '@assets/Recipe Selection Interface_1751988539625.png';
+import stockImage from '@assets/Market Anomaly Detection_1751988543586.png';
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('home');
@@ -144,21 +147,21 @@ const Portfolio = () => {
                 <ProjectCard
                   title="DeepFER: Facial Emotion Recognition"
                   description="Built a CNN-based model using PyTorch to classify 7 emotions with 72% validation accuracy."
-                  image="https://picsum.photos/400/300"
+                  image={deepferImage}
                   githubLink="https://github.com/itsViraj777/DeepFER"
                   tags={['PyTorch', 'OpenCV', 'CNN']}
                 />
                 <ProjectCard
                   title="AI-Powered Recipe Generator"
                   description="React frontend with Node.js backend and Gemini API integration for personalized meal suggestions."
-                  image="https://picsum.photos/401/300"
+                  image={recipeImage}
                   githubLink="https://github.com/itsViraj777/AI-RecipeGenerator"
                   tags={['React', 'Node.js', 'Gemini API']}
                 />
                 <ProjectCard
                   title="Stock Market Anomaly Detection"
                   description="Python-based system using Z-Score and Isolation Forest techniques for detecting unusual patterns."
-                  image="https://picsum.photos/402/300"
+                  image={stockImage}
                   githubLink="https://github.com/itsViraj777/StockAnomalyDetection"
                   tags={['Python', 'Z-Score', 'Isolation Forest']}
                 />
