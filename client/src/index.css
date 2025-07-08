@@ -346,6 +346,22 @@ body {
   color: var(--text-primary);
 }
 
+.cert-link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  color: var(--accent-purple);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+
+.cert-link:hover {
+  color: var(--accent-indigo);
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
 /* Projects Section */
 .projects-section {
   background-color: var(--bg-primary);

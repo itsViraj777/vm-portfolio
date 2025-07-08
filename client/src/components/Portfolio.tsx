@@ -127,10 +127,30 @@ const Portfolio = () => {
                   </ul>
                   <h3 className="about-subtitle">Certifications</h3>
                   <ul className="about-list">
-                    <li>Machine Learning with Python - IBM</li>
-                    <li>Prompt Engineering for Everyone - IBM</li>
-                    <li>SQL and Relational Databases 101 - IBM</li>
-                    <li>Master in Artificial Intelligence - Udemy</li>
+                    <li>
+                      Machine Learning with Python - IBM
+                      <a href="https://courses.cognitiveclass.ai/certificates/8debb135c7d84b37804a30d568d0812c" target="_blank" rel="noopener noreferrer" className="cert-link">
+                        <ExternalLinkIcon />
+                      </a>
+                    </li>
+                    <li>
+                      Master in Artificial Intelligence - Udemy
+                      <a href="https://www.udemy.com/certificate/UC-4e790a71-1e78-4430-967b-0c234be9ce78/" target="_blank" rel="noopener noreferrer" className="cert-link">
+                        <ExternalLinkIcon />
+                      </a>
+                    </li>
+                    <li>
+                      SQL and Relational Databases 101 - IBM
+                      <a href="https://courses.cognitiveclass.ai/certificates/bf9700954fcb48278566043563074d50" target="_blank" rel="noopener noreferrer" className="cert-link">
+                        <ExternalLinkIcon />
+                      </a>
+                    </li>
+                    <li>
+                      Prompt Engineering for Everyone - IBM
+                      <a href="https://courses.cognitiveclass.ai/certificates/a0727dfd55e24db5a649951d476e6279" target="_blank" rel="noopener noreferrer" className="cert-link">
+                        <ExternalLinkIcon />
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -341,6 +361,13 @@ const PhoneIcon = () => (
 const LocationIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+  </svg>
+);
+
+// External Link Icon SVG
+const ExternalLinkIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
   </svg>
 );
 
