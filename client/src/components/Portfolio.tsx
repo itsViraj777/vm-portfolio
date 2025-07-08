@@ -141,13 +141,13 @@ const Portfolio = () => {
                     </li>
                     <li>
                       SQL and Relational Databases 101 - IBM
-                      <a href="https://courses.cognitiveclass.ai/certificates/bf9700954fcb48278566043563074d50" target="_blank" rel="noopener noreferrer" className="cert-link">
+                      <a href="https://courses.cognitiveclass.ai/certificates/a0727dfd55e24db5a649951d476e6279" target="_blank" rel="noopener noreferrer" className="cert-link">
                         <ExternalLinkIcon />
                       </a>
                     </li>
                     <li>
                       Prompt Engineering for Everyone - IBM
-                      <a href="https://courses.cognitiveclass.ai/certificates/a0727dfd55e24db5a649951d476e6279" target="_blank" rel="noopener noreferrer" className="cert-link">
+                      <a href="https://courses.cognitiveclass.ai/certificates/bf9700954fcb48278566043563074d50" target="_blank" rel="noopener noreferrer" className="cert-link">
                         <ExternalLinkIcon />
                       </a>
                     </li>
