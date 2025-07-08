@@ -290,13 +290,24 @@ body {
 
 .about-list {
   color: var(--text-secondary);
-  list-style: disc;
-  margin-left: 1.5rem;
+  list-style: none;
+  margin-left: 0;
   margin-bottom: 1.5rem;
 }
 
 .about-list li {
   margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.about-list li::before {
+  content: "▶";
+  color: var(--accent-purple);
+  font-size: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
 }
 
 .about-list strong {
@@ -411,12 +422,23 @@ body {
 
 .experience-points {
   color: var(--text-secondary);
-  list-style: disc;
-  margin-left: 1.5rem;
+  list-style: none;
+  margin-left: 0;
 }
 
 .experience-points li {
   margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.experience-points li::before {
+  content: "▶";
+  color: var(--accent-purple);
+  font-size: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
 }
 
 /* Contact Section */
