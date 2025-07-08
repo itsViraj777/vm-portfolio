@@ -90,7 +90,8 @@ const Portfolio = () => {
                   </div>
                 </div>
                 <div className="home-image">
-                  <img src="https://picsum.photos/600/400" alt="AI Hero" className="hero-image" />
+                  <img src="/attached_assets/pdp_1751986504606.jpg" alt="Viraj Mhaske" className="hero-image" />
+                  <p className="hero-name">Viraj Mhaske</p>
                 </div>
               </div>
             </div>
