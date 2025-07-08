@@ -114,19 +114,19 @@ const Portfolio = () => {
                   <ul className="about-list education-list">
                     <li>
                       <span className="education-text">
-                        Bachelor's Degree in <span className="education-highlight">Artificial Intelligence and Data Science</span> with Honors in <span className="education-highlight">Cyber Security</span> from Vidyavardhini's College of Engineering and Technology - CGPA - 7.4 
+                        Bachelor's Degree in <span className="education-highlight">Artificial Intelligence and Data Science</span> with Honors in <span className="education-highlight">Cyber Security</span> from Vidyavardhini's College of Engineering and Technology - <span className="education-grade">CGPA - 7.4</span> 
                       </span>
                       <span className="education-year">(2020 – 2024)</span>
                     </li>
                     <li>
                       <span className="education-text">
-                        <span className="education-highlight">H.S.C.</span> in <span className="education-highlight">Computer Science</span>, Vidyavardhini's E.S. Andrades College of Science - 64.20% 
+                        <span className="education-highlight">H.S.C.</span> in <span className="education-highlight">Computer Science</span>, Vidyavardhini's E.S. Andrades College of Science - <span className="education-grade">64.20%</span> 
                       </span>
                       <span className="education-year">(2018 – 2020)</span>
                     </li>
                     <li>
                       <span className="education-text">
-                        <span className="education-highlight">S.S.C.</span> from Ganpat Gagnnath Vartak Vidyalaya - 84.80% 
+                        <span className="education-highlight">S.S.C.</span> from Ganpat Gagnnath Vartak Vidyalaya - <span className="education-grade">84.80%</span> 
                       </span>
                       <span className="education-year">(2018)</span>
                     </li>
