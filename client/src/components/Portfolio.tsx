@@ -155,7 +155,7 @@ const Portfolio = () => {
                   title="AI-Powered Recipe Generator"
                   description="React frontend with Node.js backend and Gemini API integration for personalized meal suggestions."
                   image={recipeImage}
-                  githubLink="https://github.com/itsViraj777/AI-RecipeGenerator"
+                  githubLink="https://ai-recipe-webapp-yi2x-aoabazd0i-viraj-mhaskes-projects.vercel.app/"
                   tags={['React', 'Node.js', 'Gemini API']}
                 />
                 <ProjectCard
@@ -268,23 +268,28 @@ const Portfolio = () => {
 };
 
 // Project Card Component
-const ProjectCard = ({ title, description, image, githubLink, tags }) => (
-  <div className="project-card">
-    <img src={image} alt={title} className="project-image" />
-    <div className="project-content">
-      <h3 className="project-title">{title}</h3>
-      <p className="project-description">{description}</p>
-      <div className="project-tags">
-        {tags.map((tag, idx) => (
-          <span key={idx} className="project-tag">{tag}</span>
-        ))}
+const ProjectCard = ({ title, description, image, githubLink, tags }) => {
+  const isLiveDemo = githubLink.includes('vercel.app') || githubLink.includes('netlify.app') || githubLink.includes('herokuapp.com');
+  const linkText = isLiveDemo ? 'View Live Demo →' : 'View on GitHub →';
+  
+  return (
+    <div className="project-card">
+      <img src={image} alt={title} className="project-image" />
+      <div className="project-content">
+        <h3 className="project-title">{title}</h3>
+        <p className="project-description">{description}</p>
+        <div className="project-tags">
+          {tags.map((tag, idx) => (
+            <span key={idx} className="project-tag">{tag}</span>
+          ))}
+        </div>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+          {linkText}
+        </a>
       </div>
-      <a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
-        View on GitHub →
-      </a>
     </div>
-  </div>
-);
+  );
+};
 
 // Experience Card Component
 const ExperienceCard = ({ role, company, period, points }) => (
