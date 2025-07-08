@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import profileImage from '@assets/pdp_1751986504606.jpg';
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('home');
@@ -90,7 +91,7 @@ const Portfolio = () => {
                   </div>
                 </div>
                 <div className="home-image">
-                  <img src="/attached_assets/pdp_1751986504606.jpg" alt="Viraj Mhaske" className="hero-image" />
+                  <img src={profileImage} alt="Viraj Mhaske" className="hero-image" />
                   <p className="hero-name">Viraj Mhaske</p>
                 </div>
               </div>
