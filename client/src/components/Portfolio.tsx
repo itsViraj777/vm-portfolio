@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import profileImage from '@assets/pdp_1751986504606.jpg';
-import deepferImage from '@assets/DEEPFER_1751988525142.png';
+import deepferImage from '@assets/DEEPFER_1751989933153.png';
 import recipeImage from '@assets/Recipe Selection Interface_1751989591540.png';
 import stockImage from '@assets/Market Anomaly Detection_1751988543586.png';
 
