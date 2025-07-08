@@ -39,7 +39,6 @@ const Portfolio = () => {
           </button>
         </div>
       </header>
-
       {/* Mobile Nav Toggle */}
       <div className="mobile-nav-toggle">
         <button
@@ -49,7 +48,6 @@ const Portfolio = () => {
           ☰
         </button>
       </div>
-
       {/* Mobile Menu Overlay */}
       {activeTab === 'menu' && (
         <div className="mobile-menu-overlay">
@@ -70,7 +68,6 @@ const Portfolio = () => {
           </button>
         </div>
       )}
-
       {/* Sections */}
       <main className="main-content">
         {/* Home Section */}
@@ -92,7 +89,7 @@ const Portfolio = () => {
                 </div>
                 <div className="home-image">
                   <img src={profileImage} alt="Viraj Mhaske" className="hero-image" />
-                  <p className="hero-name">Viraj Mhaske</p>
+                  <p className="hero-name text-[32px]">Viraj Mhaske</p>
                 </div>
               </div>
             </div>
@@ -243,7 +240,6 @@ const Portfolio = () => {
           </section>
         )}
       </main>
-
       {/* Footer */}
       <footer className="footer">
         <p className="footer-text">&copy; 2025 Viraj Mhaske. All rights reserved.</p>
