@@ -380,11 +380,18 @@ body {
   font-weight: 600;
 }
 
+.education-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
 .education-year {
   color: var(--text-secondary);
   font-size: 0.9rem;
   white-space: nowrap;
-  margin-left: auto;
   font-weight: 500;
 }
 
@@ -397,7 +404,6 @@ body {
   color: var(--accent-purple);
   font-weight: 600;
   font-size: 0.9rem;
-  margin: 0 0.25rem;
 }
 
 /* Projects Section */
