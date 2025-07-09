@@ -193,7 +193,7 @@ const Portfolio = () => {
                   description="Built a CNN-based model using PyTorch to classify 7 emotions with 72% validation accuracy."
                   image={deepferImage}
                   githubLink="https://github.com/itsViraj777/DeepFER"
-                  tags={['PyTorch', 'OpenCV', 'CNN']}
+                  tags={['PyTorch', 'OpenCV', 'CNN', 'DNN']}
                 />
                 <ProjectCard
                   title="AI-Powered Recipe Generator"
